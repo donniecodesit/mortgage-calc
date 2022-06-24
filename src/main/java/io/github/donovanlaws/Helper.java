@@ -12,7 +12,7 @@ public class Helper {
             if (!validValue) System.out.println("Input a valid number between " + min + " and " + max + ".");
         }
         else if (type.equals("float")) {
-            boolean valid = input.matches("\\d+\\.\\d+");
+            boolean valid = input.matches("\\d+\\.\\d+") || input.matches("\\d+");
             if (valid) validValue = (Float.parseFloat(input) >= (float) min && Float.parseFloat(input) <= (float) max);
             if (!validValue) System.out.println("Input a valid number between " + min + ".00 and " + max + ".00.");
         }
