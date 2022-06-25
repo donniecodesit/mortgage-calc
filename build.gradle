@@ -1,5 +1,6 @@
 plugins {
     id 'java'
+    id 'application'
 }
 
 group 'io.github.donovanlaws'
@@ -10,4 +11,12 @@ repositories {
 }
 
 dependencies {
+}
+
+application {
+    mainClass = 'io.github.donovanlaws.Main'
+}
+
+run {
+    standardInput = System.in
 }
