@@ -3,7 +3,7 @@ plugins {
     id 'application'
 }
 
-group 'io.github.donovanlaws'
+group 'io.github.donniecodesit'
 version '1.0-SNAPSHOT'
 
 repositories {
@@ -14,7 +14,7 @@ dependencies {
 }
 
 application {
-    mainClass = 'io.github.donovanlaws.Main'
+    mainClass = 'io.github.donniecodesit.Main'
 }
 
 run {
