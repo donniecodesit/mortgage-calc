@@ -1,4 +1,4 @@
-package io.github.donovanlaws;
+package io.github.donniecodesit;
 
 import java.text.NumberFormat;
 import java.util.Scanner;
